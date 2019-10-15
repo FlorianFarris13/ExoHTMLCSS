@@ -1,0 +1,88 @@
+
+.rectangle{
+	width:400px;
+	height:200px;
+	background:red;
+	margin:27px 0px 0px 153px;
+	border:3px green solid;
+	border-radius:50%;
+	border-top: 20px solid black;
+}
+
+.rectangle:first-child {
+	margin: auto 75px auto 153px;
+}
+
+.rectangleBis{	
+	width:400px;
+	height:200px;
+	background:red;
+	margin:-220px 0px 0px 600px;
+	border:3px green solid;
+	border-radius:50%;
+	border-top:20px solid black;
+}
+.cercle{
+	width:50px;
+	height:50px;
+	background:white;
+	border: 2px dotted black;
+	border-radius: 50%;
+	position: absolute;
+	margin: -137px 0px 0px 328px;
+}
+.cercleBis{
+	width:50px;
+	height:50px;
+	background:white;
+	border: 2px dotted black;
+	border-radius: 50%;
+	position: absolute;
+	margin: -137px 0px 0px 780px;
+}
+.eye{
+	width:10px;
+	height:10px;
+	background:black;
+	border: 2px solid black;
+	border-radius: 50%;
+	position:absolute;
+	margin: -117px 0px 0px 348px;
+}
+.eyeBis{
+	width:10px;
+	height:10px;
+	background:black;
+	border:2px solid black;
+	border-radius:50%;
+	position:absolute;
+	margin: -117px 0px 0px 800px;
+}
+.paupiere{
+	width:400px;
+	height:-20px;
+	background:black;
+	margin: -200px 0px 0px 153px;
+	position:absolute;
+}
+.nez{
+	 position:absolute;
+      left:520px;
+      top : 275px;
+    border-style : solid;
+    border-color : blue transparent darkgreen darkred;
+    border-width : 0px 0px 20px 20px ; /* top à 0 */
+    background : orange;
+    width : 80px;
+    height : 180px;
+    display : block; 
+   }
+.bouche{
+	width:875px;
+	height:200px;
+	background:transparent;
+	margin: 300px 0px 0px 153px;
+	border-radius: 50%;
+	border-bottom: 20px solid orange;
+	position: absolute
+}
